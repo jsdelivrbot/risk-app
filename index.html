@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Risk Admin</title>
+    <script src="jquery.js"></script>
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Quattrocento+Sans" />
+</head>
+<body>
+    <h1>RiskAdmin Home</h1>
+    <div><h4>Select type of ID</h4></div>
+    <select id="id-type">
+        <option value="1" selected="selected">Transaction ID</option>
+        <option value="2">Activity ID</option>
+    </select>
+    <h4>Enter ID</h4>
+    <div id="txid-form">
+    <form id="id-form">
+            <input type="text" id="id-input">
+            <!-- <button id="id-button">Go</button> -->
+    </form>
+    <button id="id-button">Go</button>
+    </div>
+
+    <a href="./create">Create a life cycle</a>
+    <br> <br>
+    <hr>
+    <div id="flow">
+        <div id="act-flow">
+            <h4>Actual Flow</h4>
+            <table id="main-table">
+                <thead>
+                    <tr>
+                        <th>Component Name</th>
+                        <th>Event Name</th>
+                        <th>Date</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        <div id="exp-flow">
+            <h4>Expected Flow</h4>
+            <table id="main-table-exp">
+                <thead>
+                    <tr>
+                        <th>Component Name</th>
+                        <th>Event Name</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

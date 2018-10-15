@@ -1,0 +1,61 @@
+html *{
+    font-family: Quattrocento Sans;
+}
+
+#main-table{
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+}
+
+thead{
+    border: 2px solid black;
+    background-color: burlywood;
+}
+
+th, td{
+    text-align: left;
+    padding: 8px;
+}
+
+tbody tr:nth-child(odd){
+    background-color: bisque;
+}
+#txid-form{
+    width: 700px;
+    clear: both;
+}
+
+#id-form{
+    float: left;
+    width:140px;
+    
+}
+
+#id-button{
+    float: left;
+}
+
+#flow{
+    position: absolute;
+}
+
+#act-flow{
+    float:left;
+    width:600px;
+    padding-right: 20px;
+    /* height:400px; */
+
+}
+
+#exp-flow{
+    float:left;
+    width:600px;
+    /* height:400px; */
+}
+
+#main-table-exp{
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+}

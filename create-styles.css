@@ -1,0 +1,17 @@
+#entry-form{
+    position: absolute;
+}
+
+#comp-name{
+    float: left;
+    padding-right: 20px;
+}
+
+#event-name{
+    float: left;
+}
+
+#add-button{
+    float: right;
+    padding-left: 20px;
+}
